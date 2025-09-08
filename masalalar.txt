@@ -1,0 +1,98 @@
+===== if1 =====
+let son = parseInt(prompt("Butun sonni kiriting:"));
+if (son > 0) {
+    son += 1;
+}
+console.log("Natija:", son);
+
+
+===== if2 =====
+let son = parseInt(prompt("Butun sonni kiriting:"));
+if (son > 0) {
+    son += 1;
+} else {
+    son -= 2;
+}
+console.log("Natija:", son);
+
+
+===== if3 =====
+let son = parseInt(prompt("Butun sonni kiriting:"));
+if (son > 0) {
+    son += 1;
+} else if (son < 0) {
+    son -= 2;
+} else {
+    son = 10;
+}
+console.log("Natija:", son);
+
+
+===== if4 =====
+let musbat = 0;
+for (let i = 1; i <= 4; i++) {
+    let son = parseInt(prompt(`${i}-sonni kiriting:`));
+    if (son > 0) musbat++;
+}
+console.log("Musbat sonlar soni:", musbat);
+
+
+===== if5 =====
+let musbat = 0, manfiy = 0;
+for (let i = 1; i <= 3; i++) {
+    let son = parseInt(prompt(`${i}-sonni kiriting:`));
+    if (son > 0) musbat++;
+    else if (son < 0) manfiy++;
+}
+console.log("Musbat sonlar soni:", musbat);
+console.log("Manfiy sonlar soni:", manfiy);
+
+
+===== if6 =====
+let a = parseInt(prompt("Birinchi sonni kiriting:"));
+let b = parseInt(prompt("Ikkinchi sonni kiriting:"));
+console.log("Kattasi:", a > b ? a : b);
+
+
+===== if7 =====
+let a = parseInt(prompt("Birinchi sonni kiriting:"));
+let b = parseInt(prompt("Ikkinchi sonni kiriting:"));
+if (a < b) {
+    console.log(a, b);
+} else {
+    console.log(b, a);
+}
+
+
+===== if8 =====
+let a = parseInt(prompt("Birinchi sonni kiriting:"));
+let b = parseInt(prompt("Ikkinchi sonni kiriting:"));
+console.log("Kattasi:", Math.max(a, b));
+console.log("Kichigi:", Math.min(a, b));
+
+
+===== if9 =====
+let a = parseFloat(prompt("A ni kiriting:"));
+let b = parseFloat(prompt("B ni kiriting:"));
+if (a > b) {
+    let temp = a;
+    a = b;
+    b = temp;
+}
+console.log("A:", a);
+console.log("B:", b);
+
+
+===== if10 =====
+let a = parseFloat(prompt("A ni kiriting:"));
+let b = parseFloat(prompt("B ni kiriting:"));
+if (a !== b) {
+    let yigindi = a + b;
+    a = yigindi;
+    b = yigindi;
+} else {
+    a = 0;
+    b = 0;
+}
+console.log("A:", a);
+console.log("B:", b);
