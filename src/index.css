@@ -6,6 +6,11 @@
     --font-poppins: 'Poppins', sans-serif;
     --font-montserrat: 'Montserrat', sans-serif;
     --color-primary-green: #5EB083;
+    --color-primary-amber: #FFBB8A;
     --color-primary-black: #32333D;
     --color-secondary-black: #5B6574;
+}
+
+body{
+    background: #FBFBFB;
 }

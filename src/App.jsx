@@ -1,11 +1,13 @@
-import React from 'react';
-import Header from './components/Header';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Header from "./components/Header";
+import Hero from './components/Hero';
 
 const App = () => {
   return (
     <BrowserRouter>
-    <Header />
+      <Header />
+      <Hero />
     </BrowserRouter>
   );
 };
